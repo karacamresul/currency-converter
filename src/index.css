@@ -1,0 +1,75 @@
+body {
+  background-image: url("../public/money-background.jpg");
+  background-position: center;
+  background-image: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  background-color: white;
+  height: 100px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.left-part {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.left-label {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+.left-input {
+  height: 20px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right-part {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.btn-swap {
+  background-color: aquamarine;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(133, 144, 155);
+  margin-left: 200px;
+}
+.btn-convert {
+  background-color: rgb(67, 67, 230);
+  color: white;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-left: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
